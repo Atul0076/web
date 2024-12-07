@@ -1,0 +1,462 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 100vw;
+
+}
+
+nav {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.links ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.links ul li {
+    padding-right: 30px;
+    list-style: none;
+}
+
+.links ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.90rem;
+    font-weight: 600;
+}
+
+/*heroSection*/
+
+#bighero {
+    height: 800px;
+    width: 100vw;
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#bighero .wave1 {
+    height: 7.8rem;
+    width: 100vw;
+
+}
+
+.heroSection {
+    
+    height: 680px;
+    width: 100vw;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.left-side {
+    color: #fff;
+    height: 100%;
+    max-width: 1200px;
+    width: 35%;
+
+}
+
+.left-side h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.left-side p {
+    padding-top: 0.56rem;
+    font-weight: bold;
+}
+
+
+.playLogo {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.playLogo img {
+    height: 2rem;
+}
+
+.right-side {
+    height: 100%;
+    max-width: 1200px;
+    width: 35%;
+    margin-right: 2px;
+}
+
+.right-side img {
+    padding-left: 1rem;
+    width: 100%;
+}
+
+/*what we do */
+
+.work-details img {
+    height: 4rem;
+}
+
+#whatWedo p {
+    color: black;
+}
+
+#whatWedo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title p {
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #7F00FF;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.work-details {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.work-name {
+    font-size: 1.25em;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+#whatWedo button {
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    height: 3rem;
+    font-size: 1.15rem;
+
+    border: none;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 50px;
+}
+
+/*why choose us*/
+
+#whyChooseUs {
+    width: 100vw;
+    background-color: #f4f9f8;
+    text-align: center;
+}
+
+
+
+.topics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.headline p {
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.points{
+    width: 30%;
+}
+.points ul p {
+    font-size: 2.9rem;
+}
+
+.points ul {
+    text-align: start;
+}
+
+.points ul li { 
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.whychooseUse-img{
+    width: 40%;
+}
+.whychooseUse-img img{
+    width: 100%;
+}
+
+/* what clients say*/
+
+.Feedback{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 5rem;
+}
+
+.feeback-reviews{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.feedback-manline p{
+    font-size: 3rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid #7F00FF;
+}
+
+.clients{
+    padding-left: 1rem;
+    border-left: 3px solid #7F00FF;
+    width: 30%;
+    text-align: start;
+}
+
+
+
+.clients-about{
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+
+
+.clients-about img{
+    height: 4rem;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.clinet-name{
+    font-weight: bold;
+}
+
+
+/*About-us section*/
+
+.About-Us{
+    text-align: center;
+
+}
+
+.About-Us-headline p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    
+}
+
+.About-Us-icons{
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+}
+.About-Us-icons img{
+    height: 3rem;
+}
+
+footer img{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+footer{
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-Section{
+    height: 20rem;
+    color: #fff;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-mini-Section{
+    width: 30%;
+}
+
+/*first line*/
+
+.footer-mini-Section img{
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+/*second line*/
+
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-us p,h4{
+    padding-bottom: 1rem;
+}
+
+.contact-us h4{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* third line */
+
+.get-in-touch{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.get-in-touch h2{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.get-in-touch input{
+    height: 2.5rem;
+    width: 70%;
+    border: none;
+}
+
+.get-in-touch button{
+    height: 3rem;
+    width: 7rem;
+    font-size: 1rem;
+    padding: 3px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #E100FF;
+    border: none;
+}
+
+
+@media (max-width:647px){
+    .heroSection{
+        align-items: center;
+        flex-direction: column-reverse;   
+    }
+    .links ul li{
+        display: none;
+    }
+
+    .right-side{
+        width: 60%;
+    }
+    .left-side{
+        width: 60%;
+    }
+
+    .list{
+        flex-direction: column;
+    }
+    .work-details{
+        width: 50%;
+    }
+    .topics{
+        flex-direction: column-reverse;
+    }
+    .points{
+        width: 70%;
+    }
+    .feeback-reviews{
+        gap: 0;
+        flex-direction: column;
+    }
+    .clients{
+        width: 80%;
+    }
+    .footer-Section{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .footer-mini-Section{
+        width: 80%;
+    }
+    .Feedback{
+        gap: 2rem;
+    }
+}
+
+@media (max-width:303px){
+    .feedback-manline p{
+        font-size: 1.2rem;
+    }
+}
